@@ -1,0 +1,24 @@
+{
+  "name": "pi-scoped-mcp",
+  "version": "0.1.0",
+  "description": "Pi extension that loads MCP servers only when the session starts inside configured directories",
+  "keywords": ["pi-package", "pi", "pi-extension", "mcp"],
+  "author": "baggiponte",
+  "license": "MIT",
+  "homepage": "https://github.com/baggiponte/pi-scoped-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baggiponte/pi-scoped-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baggiponte/pi-scoped-mcp/issues"
+  },
+  "type": "module",
+  "files": ["extensions/"],
+  "pi": {
+    "extensions": ["./extensions/scoped-mcp.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
